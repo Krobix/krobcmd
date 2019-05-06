@@ -6,5 +6,5 @@ StrIO::StrIO(){
 }
  
 void StrIO::write(std::string contents){
-	this->full
+	this->fullContents 
 }
