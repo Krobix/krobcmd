@@ -41,7 +41,7 @@ namespace vars{ //Any variable declaration that would otherwise be global
 
 //-----------------------inline functions used due to use of templates in this section----------------------------
 template <class T>
-int varLocationInVect(std::string name, std::vector<T> vect){
+inline int varLocationInVect(std::string name, std::vector<T> vect){
 	for(int i=0; i < vect; i++){
 		if(vect[i].name == name) return i;
 		else if(i==vect.size - 1) return -1;
